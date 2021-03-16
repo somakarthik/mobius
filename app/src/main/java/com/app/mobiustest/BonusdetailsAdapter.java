@@ -62,7 +62,7 @@ public class BonusdetailsAdapter extends RecyclerView.Adapter<BonusdetailsAdapte
 
             holder.tv_slab_amount.setText("" + slab.getMin());
         }
-        holder.tvpercent.setText("Get " + totalper + "%" + "upto" + totalmax);
+        holder.tvpercent.setText("Get " + totalper + " % " + " upto " + totalmax);
 
     }
 
